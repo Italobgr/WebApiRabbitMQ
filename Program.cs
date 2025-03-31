@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using WebApiRabbitMQ.Controller;
+using WebApiRabbitMQ.Relatorios;
 
 var builder = WebApplication.CreateSlimBuilder(args);
 
@@ -19,7 +20,9 @@ app.Run();
 
 
 
-[JsonSerializable(typeof(HelloResponse))]
+[JsonSerializable(typeof(SolicitacaoRelatorio))]
+
+[JsonSerializable(typeof(List<SolicitacaoRelatorio>))]
 internal partial class AppJsonSerializerContext : JsonSerializerContext
 {
 

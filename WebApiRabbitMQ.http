@@ -1,11 +1,11 @@
 @WebApiRabbitMQ_HostAddress = http://localhost:5261
 
-GET {{WebApiRabbitMQ_HostAddress}}/todos/
+POST {{WebApiRabbitMQ_HostAddress}}/solicitar-relatorio/reltorio%201
 Accept: application/json
 
 ###
 
-GET {{WebApiRabbitMQ_HostAddress}}/todos/1
+GET {{WebApiRabbitMQ_HostAddress}}/relatorios
 Accept: application/json
 
-###
+###GET 
