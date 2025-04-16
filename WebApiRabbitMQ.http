@@ -8,4 +8,7 @@ Accept: application/json
 GET {{WebApiRabbitMQ_HostAddress}}/relatorios
 Accept: application/json
 
+POST {{WebApiRabbitMQ_HostAddress}}/relatorios
+Accept: application/json
+
 ###GET 
