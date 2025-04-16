@@ -3,7 +3,7 @@
 POST {{WebApiRabbitMQ_HostAddress}}/solicitar-relatorio/reltorio%201
 Accept: application/json
 
-###
+###POST
 
 GET {{WebApiRabbitMQ_HostAddress}}/relatorios
 Accept: application/json
