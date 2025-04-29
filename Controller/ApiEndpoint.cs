@@ -21,7 +21,7 @@ namespace WebApiRabbitMQ.Controller
 
 
                 Lista.Relatorios.Add(solicitacao);
-                //Lista.Relatorios.Add(solicitacao);
+                //Lista.Relatorios.Add(solicitacao)
                 return Results.Ok(solicitacao);
             });
 
