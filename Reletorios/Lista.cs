@@ -22,7 +22,8 @@
         public DateTime? ProcessedTime { get; set; }
     }
 
-   /* public class SolicitacaoRelatorio
+   /* 
+   public class SolicitacaoRelatorio
     {
         public Guid Id { get; set; }
         public string Nome { get; set; }
