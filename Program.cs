@@ -15,7 +15,7 @@ app.AddApiEndpoints();
 
 app.Run();
 //teste
-//public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = false);
+//public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = true);
 
 
 
