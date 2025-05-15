@@ -14,8 +14,9 @@ var app = builder.Build();
 app.AddApiEndpoints();
 
 app.Run();
-//teste
-//public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = true);
+
+//teste para depuração ---
+//public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = flese);
 
 
 
