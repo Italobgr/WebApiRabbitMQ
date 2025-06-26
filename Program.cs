@@ -16,7 +16,7 @@ app.AddApiEndpoints();
 app.Run();
 
 //teste para depuração ---
-//public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = flese);
+//public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = false);
 
 
 
